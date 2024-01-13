@@ -1,0 +1,3 @@
+company name : NLivenTechnologiesPvt.Ltd.
+skills : rest,python,html5,javascript,jquery,nosql,security,django,git,oops,mysql
+more info : https://www.timesjobs.com/job-detail/python-developer-nliven-technologies-pvt-ltd-indore-2-to-3-yrs-jobid-mnxrL3p0BWpzpSvf__PLUS__uAgZw==&source=srp
