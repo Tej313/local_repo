@@ -10,7 +10,7 @@ titles = soup.find_all('div', attrs={'class', 'head'})
 
 # Check if there are at least 5 titles in the list
 if len(titles) >= 5:
-    print(titles[1].text)
+    print(titles[4].text)
 else:
     print("Not enough titles found.")
 
