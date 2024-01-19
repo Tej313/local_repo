@@ -36,16 +36,16 @@
     "Experience Required": "card_travel5 - 8 yrs"
   },
   {
-    "Job Title": "Tech Lead  Biostatistics  &  Programming",
-    "Company Name": "ephicacy lifescience analytics pvt ltd",
-    "Skills Required": "biostatistics  ,  sas programming  ,  clinical  ,  ich-gcp  ,  clinical trials  ,  sdtm",
-    "Experience Required": "card_travel7 - 10 yrs"
-  },
-  {
     "Job Title": "Senior Software Engineer - PLC Programming",
     "Company Name": "eurofins it solutions pvt ltd",
     "Skills Required": "plc programming  ,   analytical thinking  ,   html  ,   control programs  ,   indirect addressing  ,   arrays    ,  information technology  ,  senior software engineer  ,  t-sql  ,  xml  ,  c#  ,  python  ,  erp  /  crm  ,  messaging  ,  c#.net  ,  algorithms  ,  microsoft technologies  ,  xsd  ,  technical skills  ,  information management  ,  software delivery  ,  mobile",
     "Experience Required": "card_travel3 - 6 yrs"
+  },
+  {
+    "Job Title": "Tech Lead  Biostatistics  &  Programming",
+    "Company Name": "ephicacy lifescience analytics pvt ltd",
+    "Skills Required": "biostatistics  ,  sas programming  ,  clinical  ,  ich-gcp  ,  clinical trials  ,  sdtm",
+    "Experience Required": "card_travel7 - 10 yrs"
   },
   {
     "Job Title": "Team Lead Programming /  Web Developer",
@@ -66,6 +66,12 @@
     "Experience Required": "card_travel1 - 3 yrs"
   },
   {
+    "Job Title": "PLC Programming ( Electrical Automation Engineer )",
+    "Company Name": "v support solutions",
+    "Skills Required": "bom  ,  hmi  ,  delta  ,  motors  ,  motion control  ,  sop  ,  manufacturing  ,  mechanical design engineer  ,  ac  ,  troubleshooting skills  ,  plc  ,  documentation  ,  control panel  ,  sensors  ,  automation engineer  ,  siemens  ,  manufacturing process  ,  omron  ,  allen bradley",
+    "Experience Required": "card_travel1 - 3 yrs"
+  },
+  {
     "Job Title": "Associate / Sr. Associate Survey Programming",
     "Company Name": "Acuity Knowledge Partners",
     "Skills Required": "python  ,  css  ,  javascript  ,  jquery  ,  html",
@@ -76,12 +82,6 @@
     "Company Name": "Veeva Systems",
     "Skills Required": "research  ,  clinical data  ,  clinical trials  ,  edc  ,  clinical data management  ,  clinical  ,  data management  ,  regulatory  ,  life sciences  ,  clinical operations  ,  cro",
     "Experience Required": "card_travel5 - 8 yrs"
-  },
-  {
-    "Job Title": "PLC Programming ( Electrical Automation Engineer )",
-    "Company Name": "v support solutions",
-    "Skills Required": "bom  ,  hmi  ,  delta  ,  motors  ,  motion control  ,  sop  ,  manufacturing  ,  mechanical design engineer  ,  ac  ,  troubleshooting skills  ,  plc  ,  documentation  ,  control panel  ,  sensors  ,  automation engineer  ,  siemens  ,  manufacturing process  ,  omron  ,  allen bradley",
-    "Experience Required": "card_travel1 - 3 yrs"
   },
   {
     "Job Title": "POSITION IT Software Application programming  &  Maintenance",
