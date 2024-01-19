@@ -47,6 +47,4 @@ def main():
     print(f"Job listings for {args.category} saved to {args.category}.json")
 
 if __name__ == "__main__":
-    import sys
-    sys.argv = [sys.argv[0]] + ['/Users/tej/Documents/visual studio/local_repo/pythonjobs12.py', 'programming']
     main()
