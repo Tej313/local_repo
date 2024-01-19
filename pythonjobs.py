@@ -28,17 +28,11 @@ def scrape_jobs(url):
 
 def main():
     parser = argparse.ArgumentParser(description='Scrape job listings and save to JSON file.')
-    parser.add_argument('category', choices=['programming', 'marketing'], help='Specify the job category')
+    parser.add_argument('category', help='Specify the job category')
 
     args = parser.parse_args()
 
-    if args.category == 'programming':
-        url = "https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&searchTextSrc=&searchTextText=&txtKeywords=programming&txtLocation="
-    elif args.category == 'marketing':
-        url = "https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&searchTextSrc=&searchTextText=&txtKeywords=marketing&txtLocation="
-    else:
-        print("Invalid category. Choose either 'programming' or 'marketing'.")
-        return
+    url = f"https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&searchTextSrc=&searchTextText=&txtKeywords={args.category}&txtLocation="
 
     jobs = scrape_jobs(url)
 
