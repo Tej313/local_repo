@@ -6,10 +6,6 @@ from collections import Counter
 def extract_keywords(text):
     return [word.lower() for word in text.split()]
 
-print('Put some skills you are not familiar with:')
-unfamiliar_skill = input('> ')
-print(f"Filtering out '{unfamiliar_skill}'")
-
 html_text = requests.get('https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&searchTextSrc=&searchTextText=&txtKeywords=python&txtLocation=')
 soup = BeautifulSoup(html_text.text, 'html.parser')
 jobs = soup.find_all('li', class_='clearfix job-bx wht-shd-bx')
@@ -27,6 +23,6 @@ skill_counter = Counter(all_skills)
 # Extracting the top 10 most common skills
 top_skills = skill_counter.most_common(10)
 
-print('\nTop 10 keywords in job descriptions:')
+print('Top 10 keywords in job descriptions:')
 for skill, frequency in top_skills:
     print(f"{skill}: {frequency}")
